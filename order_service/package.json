@@ -1,0 +1,21 @@
+{
+  "name": "order",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "tsc && node dist/main.js",
+    "start:dev": "nodemon --ignore dist/ --exec ts-node src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.8.3",
+    "zeebe-node": "^0.23.0-alpha.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
