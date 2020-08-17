@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/cuongw/go/bin:/usr/local/go/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cuongw/.npm-global/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz: ENOENT: no such file or directory, open '/home/cuongw/snap/codium/common/.cache/yarn/v6/npm-end-of-stream-1.4.4-5ae64a5f45057baf3626ec14da0ca5e4b2431eb0-integrity/node_modules/end-of-stream/.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "inventory",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/main.js",
+    "scripts": {
+      "test": "echo \"No test specified\" && exit 0",
+      "start": "tsc && node dist/main.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "typescript": "^3.8.3",
+      "zeebe-node": "^0.23.0-alpha.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

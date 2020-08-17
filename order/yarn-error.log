@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/cuongw/go/bin:/usr/local/go/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cuongw/.npm-global/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/home/cuongw/snap/codium/common/.cache/yarn/v6/npm-grpc-1.24.3-92efe28dfc1250dca179b8133e40b4f2341473d9-integrity/node_modules/grpc/deps/grpc/src/core/lib/iomgr/executor/threadpool.h'
+
+npm manifest: 
+  {
+    "name": "order",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/main.js",
+    "scripts": {
+      "test": "echo \"No test specified\" && exit 0",
+      "start": "tsc && node dist/main.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "typescript": "^3.8.3",
+      "zeebe-node": "^0.23.0-alpha.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
